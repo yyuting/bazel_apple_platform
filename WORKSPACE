@@ -23,8 +23,8 @@ versions.check(
 # Bazel rules_apple.
 http_archive(
     name = "build_bazel_rules_apple",
-    urls = ["https://github.com/bazelbuild/rules_apple/releases/download/3.2.1/rules_apple.3.2.1.tar.gz"],
-    sha256 = "9c4f1e1ec4fdfeac5bddb07fa0e872c398e3d8eb0ac596af9c463f9123ace292",
+    sha256 = "65eafafe94b8573e74160b7f587d091a0fa34d69e6d2c41c4afb1eef140383ec",
+    url = "https://github.com/bazelbuild/rules_apple/releases/download/3.3.0/rules_apple.3.3.0.tar.gz",
 )
 
 load(
